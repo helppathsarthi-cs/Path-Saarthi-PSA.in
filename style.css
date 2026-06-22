@@ -257,9 +257,16 @@ margin:auto;
 
 .hero{
 background:linear-gradient(
-rgba(0,0,0,0.75),
-rgba(0,0,0,0.75)
+135deg,
+#120a05 0%,
+#24140c 35%,
+#3b2416 70%,
+#120a05 100%
 );
+padding:60px 20px;
+text-align:center;
+border-bottom:3px solid #d4af37;
+}
 text-align:center;
 padding:60px 20px;
 border-bottom:3px solid #d4af37;
