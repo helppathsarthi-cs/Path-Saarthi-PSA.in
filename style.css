@@ -402,8 +402,10 @@ footer{
         #120a05 0%,
         #24140c 35%,
         #3b2416 70%,
-        #120a05 100%;
+        #120a05 100%
+    );
 }
+    
 text-align:center;
 padding:40px 20px;
 border-top:3px solid #d4af37;
