@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="hi">
 <head>
 <meta charset="UTF-8">
@@ -6,6 +7,7 @@
 <title>पथ सारथी सर्विस एजेंसी (PSA)</title>
 
 <style>
+
 *{
 margin:0;
 padding:0;
@@ -16,7 +18,7 @@ font-family:Arial,sans-serif;
 body{
 background:#f8f5ef;
 color:#222;
-line-height:1.6;
+line-height:1.7;
 }
 
 .container{
@@ -29,21 +31,23 @@ header{
 background:#3b2a1d;
 color:#fff;
 text-align:center;
-padding:50px 20px;
+padding:60px 20px;
 }
 
-h1{
-margin-bottom:10px;
+header h1{
+font-size:40px;
+margin-bottom:15px;
 }
 
 .tagline{
-font-size:18px;
+font-size:20px;
+margin-bottom:25px;
 }
 
 .btn{
 display:inline-block;
-margin:10px;
-padding:12px 20px;
+padding:12px 22px;
+margin:5px;
 background:#c89b3c;
 color:#fff;
 text-decoration:none;
@@ -51,13 +55,17 @@ border-radius:8px;
 font-weight:bold;
 }
 
+.btn:hover{
+opacity:.9;
+}
+
 section{
-padding:50px 20px;
+padding:60px 20px;
 }
 
 h2{
 text-align:center;
-margin-bottom:20px;
+margin-bottom:25px;
 color:#3b2a1d;
 }
 
@@ -66,22 +74,41 @@ background:#fff;
 padding:20px;
 margin:15px 0;
 border-radius:10px;
-box-shadow:0 2px 10px rgba(0,0,0,.1);
+box-shadow:0 2px 10px rgba(0,0,0,.10);
 }
 
 .plan{
 background:#fff;
 padding:20px;
-margin:15px 0;
+margin:20px 0;
 border-radius:10px;
-box-shadow:0 2px 10px rgba(0,0,0,.1);
+box-shadow:0 2px 10px rgba(0,0,0,.10);
+}
+
+.plan h3{
+color:#3b2a1d;
+margin-bottom:10px;
+}
+
+.plan h4{
+color:#c89b3c;
+margin-bottom:15px;
+font-size:24px;
+}
+
+.plan ul{
+padding-left:20px;
+}
+
+.plan li{
+margin-bottom:8px;
 }
 
 footer{
 background:#3b2a1d;
 color:#fff;
 text-align:center;
-padding:20px;
+padding:30px 20px;
 }
 
 .whatsapp{
@@ -92,15 +119,37 @@ background:#25D366;
 color:white;
 padding:15px;
 border-radius:50%;
+font-size:24px;
 text-decoration:none;
-font-size:22px;
+z-index:999;
 }
+
+@media(max-width:768px){
+
+header h1{
+font-size:28px;
+}
+
+.tagline{
+font-size:16px;
+}
+
+.btn{
+display:block;
+margin:10px auto;
+max-width:280px;
+}
+
+}
+
 </style>
+
 </head>
 
 <body>
 
 <header>
+
 <div class="container">
 
 <h1>पथ सारथी सर्विस एजेंसी (PSA)</h1>
@@ -108,8 +157,6 @@ font-size:22px;
 <p class="tagline">
 सम्मान • विश्वास • सहयोग
 </p>
-
-<br>
 
 <a href="#staff" class="btn">
 सारथी सहायक-सहायिका बनें
@@ -120,38 +167,48 @@ font-size:22px;
 </a>
 
 </div>
+
 </header>
 
 <section>
+
 <div class="container">
 
 <h2>हमारे बारे में</h2>
 
 <div class="card">
-पथ सारथी सर्विस एजेंसी (PSA) सत्यापित एवं प्रशिक्षित
-सारथी सहायक-सहायिकाओं को सारथी संरक्षकों की
-आवश्यकता अनुसार उपलब्ध कराने का प्रयास करती है।
+
+पथ सारथी सर्विस एजेंसी (PSA) का उद्देश्य सत्यापित एवं प्रशिक्षित
+सारथी सहायक-सहायिका को आवश्यकता अनुसार
+सारथी संरक्षकों तक पहुँचाने का प्रयास करना है।
+
 </div>
 
 </div>
+
 </section>
 
 <section>
+
 <div class="container">
 
 <h2>सत्यापन प्रक्रिया</h2>
 
 <div class="card">
-✓ Aadhaar Verification<br>
-✓ Police Verification<br>
-✓ Character Certificate Verification<br>
-✓ Address Verification
+
+✓ आधार सत्यापन<br>
+✓ पुलिस सत्यापन<br>
+✓ चरित्र प्रमाण पत्र सत्यापन<br>
+✓ पता सत्यापन
+
 </div>
 
 </div>
+
 </section>
 
 <section>
+
 <div class="container">
 
 <h2>कार्य श्रेणियाँ</h2>
@@ -159,120 +216,298 @@ font-size:22px;
 <div class="card">घरेलू सहायक-सहायिका</div>
 <div class="card">रसोई सहायक</div>
 <div class="card">वाहन चालक</div>
-<div class="card">बच्चों की देखभाल</div>
-<div class="card">वरिष्ठ नागरिक देखभाल</div>
+<div class="card">बाल देखभाल सहायक</div>
+<div class="card">वरिष्ठ नागरिक देखभाल सहायक</div>
 
 </div>
+
 </section>
 
-<section>
+<section id="plans">
+
 <div class="container">
 
 <h2>सदस्यता योजनाएँ</h2>
 
 <div class="plan">
+
 <h3>सारथी बेसिक प्लान</h3>
-₹999<br>
-6 माह
+
+<h4>₹999 / 1 वर्ष</h4>
+
+<ul>
+<li>सत्यापित सदस्य</li>
+<li>बेसिक सहायता</li>
+<li>1 रिप्लेसमेंट सुविधा</li>
+<li>सदस्य सहायता</li>
+</ul>
+
 </div>
 
 <div class="plan">
+
 <h3>सारथी सुरक्षा प्लान</h3>
-₹1499<br>
-1 वर्ष
+
+<h4>₹1499 / 1 वर्ष</h4>
+
+<ul>
+<li>सत्यापित सदस्य</li>
+<li>3 रिप्लेसमेंट सुविधा</li>
+<li>प्राथमिक सहायता</li>
+<li>बैकअप सपोर्ट</li>
+</ul>
+
 </div>
 
 <div class="plan">
+
 <h3>सारथी संरक्षण प्लान</h3>
-₹1999<br>
-2 वर्ष
+
+<h4>₹1999 / 2 वर्ष</h4>
+
+<ul>
+<li>उन्नत सहायता</li>
+<li>5 रिप्लेसमेंट सुविधा</li>
+<li>विशेष सहायता</li>
+<li>प्राथमिकता समर्थन</li>
+</ul>
+
 </div>
 
 <div class="plan">
+
 <h3>सारथी सम्मान प्लान</h3>
-₹4999<br>
-5 वर्ष
+
+<h4>₹4999 / 5 वर्ष</h4>
+
+<ul>
+<li>दीर्घकालिक सदस्यता लाभ</li>
+<li>प्रीमियम सहायता</li>
+<li>विशेष सदस्य लाभ</li>
+<li>प्राथमिकता सेवा</li>
+</ul>
+
 </div>
 
 </div>
+
 </section>
+<!-- ========================= -->
 
-<section>
+<!-- सारथी रेफरल योजना -->
+
+<!-- ========================= -->
+
+<section id="referral">
 <div class="container">
 
-<h2>रेफरल योजना</h2>
+<h2>सारथी रेफरल योजना</h2>
 
 <div class="card">
-सारथी संरक्षक द्वारा रेफरल पर विशेष लाभ दिए जा सकते हैं।
+<h3>सारथी संरक्षक रेफरल योजना</h3>
+<p>
+यदि कोई सारथी संरक्षक किसी नए सारथी संरक्षक को पथ सारथी सर्विस एजेंसी (PSA) से जोड़ता है
+और वह सदस्यता ग्रहण करता है, तो निर्धारित नियमों के अनुसार विशेष लाभ, छूट अथवा अतिरिक्त सुविधा प्रदान की जा सकती है।
+</p>
 </div>
 
 <div class="card">
-सारथी सहायक-सहायिका द्वारा रेफरल पर
-30 दिन कार्य पूर्ण होने के बाद ₹500–₹1000 तक
-प्रोत्साहन राशि दी जा सकती है।
+<h3>सारथी सहायक-सहायिका रेफरल योजना</h3>
+<p>
+यदि कोई सारथी सहायक-सहायिका किसी नए सदस्य को एजेंसी से जोड़ता है तथा वह सदस्यता लेकर कार्य प्रारंभ करता है,
+तो निर्धारित नियम एवं शर्तों के अनुसार ₹500 से ₹1000 तक की प्रोत्साहन राशि प्रदान की जा सकती है।
+</p>
+
+<p>
+प्रोत्साहन राशि तभी देय होगी जब नया सदस्य निर्धारित परीक्षण अवधि एवं न्यूनतम कार्य अवधि पूर्ण करेगा।
+</p>
 </div>
 
 </div>
 </section>
 
-<section>
+<!-- ========================= -->
+
+<!-- सारथी राहत कोष -->
+
+<!-- ========================= -->
+
+<section id="relief-fund">
 <div class="container">
 
 <h2>सारथी राहत कोष</h2>
 
 <div class="card">
-यह स्वैच्छिक सहयोग कोष है जिसमें इच्छुक
-सारथी संरक्षक, सारथी सहायक-सहायिका या
-शुभचिंतक सहयोग कर सकते हैं।
+<p>
+सारथी राहत कोष एक स्वैच्छिक सहयोग पहल है।
+</p>
+
+<p>
+इच्छुक सारथी संरक्षक, सारथी सहायक-सहायिका एवं शुभचिंतक अपनी इच्छा अनुसार सहयोग राशि प्रदान कर सकते हैं।
+</p>
+
+<p>
+यह कोष आपातकालीन सहायता, सामाजिक सहयोग एवं पात्र सहायता कार्यों हेतु उपयोग किया जा सकता है।
+</p>
 </div>
 
 </div>
 </section>
 
-<section id="staff">
+<!-- ========================= -->
+
+<!-- FAQ -->
+
+<!-- ========================= -->
+
+<section id="faq">
 <div class="container">
 
-<h2>सारथी सहायक-सहायिका पंजीकरण</h2>
-
-<a href="#" class="btn">
-रजिस्ट्रेशन फॉर्म
-</a>
-
-</div>
-</section>
-
-<section id="customer">
-<div class="container">
-
-<h2>सारथी संरक्षक सेवा बुकिंग</h2>
-
-<a href="#" class="btn">
-बुकिंग फॉर्म
-</a>
-
-</div>
-</section>
-
-<section>
-<div class="container">
-
-<h2>संपर्क</h2>
+<h2>अक्सर पूछे जाने वाले प्रश्न</h2>
 
 <div class="card">
-मोबाइल: XXXXXXXXXX<br>
-ईमेल: info@psa.com
+<h3>क्या सभी सदस्यों का सत्यापन किया जाता है?</h3>
+<p>
+उपलब्ध दस्तावेजों एवं प्रक्रिया के अनुसार सत्यापन का प्रयास किया जाता है।
+</p>
+</div>
+
+<div class="card">
+<h3>क्या रिप्लेसमेंट सुविधा उपलब्ध है?</h3>
+<p>
+हाँ, चयनित योजना के अनुसार रिप्लेसमेंट सुविधा उपलब्ध हो सकती है।
+</p>
+</div>
+
+<div class="card">
+<h3>सदस्यता कितने समय के लिए मान्य रहती है?</h3>
+<p>
+सदस्यता अवधि चयनित योजना के अनुसार निर्धारित होती है।
+</p>
 </div>
 
 </div>
 </section>
 
+<!-- ========================= -->
+
+<!-- नियम एवं शर्तें -->
+
+<!-- ========================= -->
+
+<section id="terms">
+<div class="container">
+
+<h2>नियम एवं शर्तें</h2>
+
+<div class="card">
+<ul>
+<li>सभी सदस्य एजेंसी के नियमों का पालन करेंगे।</li>
+<li>गलत जानकारी पाए जाने पर सदस्यता समाप्त की जा सकती है।</li>
+<li>सेवा उपलब्धता क्षेत्र एवं परिस्थितियों पर निर्भर करेगी।</li>
+<li>एजेंसी समय-समय पर नियमों में संशोधन कर सकती है।</li>
+<li>सदस्यता एवं सेवाएँ निर्धारित शर्तों के अनुसार संचालित होंगी।</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<!-- ========================= -->
+
+<!-- गोपनीयता नीति -->
+
+<!-- ========================= -->
+
+<section id="privacy">
+<div class="container">
+
+<h2>गोपनीयता नीति</h2>
+
+<div class="card">
+<p>
+सदस्यों एवं आवेदकों द्वारा प्रदान की गई जानकारी को यथासंभव सुरक्षित एवं गोपनीय रखने का प्रयास किया जाएगा।
+</p>
+
+<p>
+व्यक्तिगत जानकारी को बिना अनुमति किसी तृतीय पक्ष को साझा नहीं किया जाएगा,
+सिवाय कानूनी आवश्यकता अथवा सक्षम प्राधिकारी के निर्देश की स्थिति में।
+</p>
+</div>
+
+</div>
+</section>
+
+<!-- ========================= -->
+
+<!-- संपर्क -->
+
+<!-- ========================= -->
+
+<section id="contact">
+<div class="container">
+
+<h2>संपर्क करें</h2>
+
+<div class="card">
+
+<p>
+<strong>सारथी संरक्षक सहायता</strong><br>
+9454111177
+</p>
+
+<p>
+<strong>सारथी सदस्य सहायता</strong><br>
+9044251050
+</p>
+
+<p>
+<strong>ईमेल</strong><br>
+helppathsarthi@gmail.com
+</p>
+
+</div>
+
+</div>
+</section>
+
+<!-- ========================= -->
+
+<!-- Footer -->
+
+<!-- ========================= -->
+
 <footer>
-© Path Saarthi Service Agency (PSA)
+<div class="container">
+
+<h3>पथ सारथी सर्विस एजेंसी (PSA)</h3>
+
+<p>
+सत्यापित सारथी सहायक-सहायिका एवं सारथी संरक्षक सेवा मंच
+</p>
+
+<p>
+ईमेल: helppathsarthi@gmail.com
+</p>
+
+<p>
+सारथी संरक्षक सहायता: 9454111177
+</p>
+
+<p>
+सारथी सदस्य सहायता: 9044251050
+</p>
+
+<p>
+© 2026 Path Saarthi Service Agency (PSA)
+</p>
+
+</div>
 </footer>
 
-<a class="whatsapp" href="#">
-💬
-</a>
+<!-- WhatsApp Button -->
 
-</body>
-</html>
+<a class="whatsapp"
+href="https://wa.me/919044251050"
+target="_blank">
+💬 </a>
